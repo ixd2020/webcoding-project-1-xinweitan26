@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Page</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    <h1>Hi Contact!</h1>
+     <p>
+      <a href="/test.html">Test Page</a> /
+      <a href="/testassignment.html">Test Assignment Page</a>
+    </p><br><br>
+    
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <a class="active" href="/index.html"><strong>Home</strong></a>
+      <a href="/about.html"><strong>About</strong></a>
+      <a href="/contact.html"><strong>Contact</strong></a>
+      <a href="/artwork.html"><strong>Artwork</strong></a>
+      <a href="/cart.html"><strong>Cart</strong></a>
+    </div>
+    
+    <!-- table -->
+    <br><br>
+    <div class="contact1">
+      <article>
+        <header><h2>Mailing Address</h2></header>
+        <p><strong>Address:</strong> 90 Stamford Rd, Singapore 679496</p>
+        <p><strong>Fax:</strong> (+65) 9056 9143</p>
+      </article>
+    </div>
+    
+    <div class="contact1">
+      <article>
+        <header><h2>Operating Hours</h2></header>
+        <p><strong>Monday to Friday:</strong> 8.30am - 6pm. </p>
+        <p><strong>Saturday:</strong> 9am - 1pm </p>
+        <p>Closed on Sunday and Public Holidays.</p>
+      </article>
+    </div>
+    
+    <div class="contact1">
+      <article>
+        <header><h2>Help Desk</h2></header>
+        <p><strong>Hotline:</strong> 1800-25544-986 </p>
+        <p><strong>Tel:</strong> 	(+65) 6587 1592 and (+65) 6947 68277</p>
+        <p><strong>Email:</strong>	helpdesk@liumuseum.sg
+        </p>
+      </article>
+    </div>
+    
+    <!-- form -->
+    <div class="form1">
+    <header><h2>Feedback/Enquires Form</h2></header>
+		<div>
+			<input class="textbox" type="text" name="surname" id="surname" title=" Please enter your Surname" placeholder="Name" required/>
+		</div><br>
+     
+		<div>
+      <input class="textbox" type="email" name="email" id="email" title=" Please enter your Email" placeholder="Email Address" required/>
+		</div><br>
+	
+    <div>
+      <input class="textbox" type="text" name="phone" id="phone" pattern="^[0-9]{8}$" title="Phone number format invaild. Must be 8 digit" placeholder="Phone Number " />
+		</div><br>
+	
+    <div>
+			<div class="field"><textarea rows="10" cols="80" name="address" id="address" title=" Please enter your Address"  placeholder="Feedback/Enquires" required/></textarea></div>
+		</div><br>
+    
+    <input type="submit" id="Submit" value="Submit" />
+    </div>
+  </body>
+  
+  <hr>
+  <footer class="mainFooter"> 
+     <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="index.html">Liu Museum</a></p>
+</footer>
+  
+</html>
