@@ -83,3 +83,7 @@ th, td {
 .mainFooter  a:hover {
 	color: blueviolet;
 }
+
+#img{
+  text-align:center;
+}
