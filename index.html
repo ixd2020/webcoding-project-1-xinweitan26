@@ -5,73 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Index!</title>
+    <title>Home Page</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
+  
   <body>
-     <p>
-      <a href="/index.html">Index Page</a> /
-      <a href="/test.html">Test Page</a> /
-      <a href="/testcss.html">Test CSS Page</a> /
-      <a href= "#third">Third Time</a>    
-    </p><br>
-    <h1>Hi there!</h1>
-    <h2>Hi there!</h2>
-    <h3>Hi there!</h3>
-    <h4>Hi there!</h4>
-    <h5>Hi there!</h5>
-    <h6>Hi there!</h6>
-    
+  <h1>Hi Home!</h1>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-    </p>
+      <a href="/testassignment.html">Test Assignment Page</a> /
+       <a href="/cart.html"><strong>Cart</strong></a>
+    </p><br><br>
     
-    <h2>Welcome to Liu Kang website</h2>
-    <p>
-      <b>Liu Kang (Chinese: 刘抗; pinyin: Liú Kàng) </b>
-      was a Singaporean artist known for his <em>Balinese-themed figurative paintings. </em>
-    </p>
+   <img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLogo%20img%201.2.png?v=1604932172949" width="100%" height="10%">
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <a class="active" href="/index.html"><strong>Home</strong></a>
+      <a href="/about.html"><strong>About</strong></a>
+      <a href="/contact.html"><strong>Contact</strong></a>
+      <a href="/artwork.html"><strong>Artwork</strong></a>
+    </div>
     
-    <p>
-      <strong>He was a founding member of the Singapore Art Society, and was credited with developing the Nanyang Style, </strong>
-      an art style associated with the Nanyang Academy of Fine Arts.[1] 
-      He is also the father of the architect <i>Liu Thai Ker.</i>
-    </p>
-    <hr>
-    <p>
-      Liu was born in Fujian Province and he spent his early years in Malaysia, <br>
-      studied art in Shanghai and Paris, and taught art in Shanghai during the 1930s. <br>
-      Under the influence of Chinese artist and art teacher Liu Haisu (1896–1994), 
-      Liu admired, and often appropriated the styles of French-based modernist painters such as Cézanne, 
-      van Gogh and Matisse.
-    </p>
-    <hr>
+    <!-- Message -->
+    <br><br>
+    <table class="message">
+      <tr>
+        <th style= "font-size:50px"><strong>No Message Now!</strong></th>
+      </tr>
+    </table>
     
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2FOutdoor-Painting_-Liu-Kang_-HR_2.svg?v=1603940732430" width = "400" height ="300">
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2Flife%20bty%20the%20river.jpg?v=1603940757950" width="400" height="300">
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2FIndian%20Musicians.jpg?v=1603941590665" width="400" height="300">
+    <!-- Popular Artwork -->
+    <h1 style = "text-align:center">Popular Artwork</h1>
+    <table class="atable" style="width:100%">
+      <tr>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FArtist%20and%20model_P-1070%20(cropped).jpg?v=1604653166536" width ="350px" height="250px" id="1"><br><br><a href="A1-Artist and Model.html" target="_blank">Artist and Model</a></th>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLife%20by%20the%20River_P-0521%20(cropped).jpg?v=1604653186483" width ="350px" height="250px" id="2"><br><br>Life by the River</th>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FScenery_2003-03341.jpg?v=1604653203590" width ="350px" height="250px" id="3"><br><br>Scenery</th>
+      </tr>
+    </table>
+    
+    <!-- Recommended Artwork -->
     <br>
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2FOutdoor-Painting_-Liu-Kang_-HR_2.svg?v=1603940732430" width = "400" height ="300">
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2Flife%20bty%20the%20river.jpg?v=1603940757950" width="400" height="300">
-    <img src="https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2FIndian%20Musicians.jpg?v=1603941590665" width="400" height="300">
-    <br>
-    <hr>
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CM7kR0tGt7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     
-    <p>
-      I'm your cool new webpage. Made with
-      <a href="https://glitch.com">Glitch</a>!
-    </p>
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    <h1 style = "text-align:center">Recommended Artwork</h1>
+    <table class="atable" style="width:100%">
+      <tr>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FConstruction%20Site_2003-03340.jpg?v=1604654226613" width ="220px" height="350px"><br><br>Construction Site</th>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FMt.%20Huangshan_2003-03377.jpg?v=1604654232183" width ="220px" height="350px"><br><br>Mt.Huangshan</th>
+        <th><br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLife%20in%20a%20Village_2003-03387.jpg?v=1604654242854" width ="220px" height="350px"><br><br>Life in Village</th>
+      </tr>
+    </table>
     
+    <!-- Video-->
+    <br>
+    <h1 style = "text-align:center">Video</h1>
+    <table class="video">
+      <tr>
+        <th>
+          <br><iframe width="560" height="315" src="https://www.youtube.com/embed/-alBbmhPVW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2OKAL2Uh_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        </th>
+      </tr>
+    </table>
   </body>
+  
+  <br><hr>
+  <footer class="mainFooter"> 
+     <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="index.html">Liu Art Gallery</a></p>
+</footer>
+  
 </html>
