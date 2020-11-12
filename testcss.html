@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Test Page</title>
+    <title>Test CssPage</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
 
   <body>
-    <h1>Hi Test!</h1>
+    <h1>Hi Test Css!</h1>
 
     <p>
       I'm your cool new webpage. Made with
       <a href="https://glitch.com">Glitch</a>!
-    </p>
+    </p><br>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
@@ -35,7 +37,7 @@
 
     <br>
     <h2>Grid of Boxes</h2>
-    <p>Float boxes side by side:</p>
+    <p style="color:white">Float boxes side by side:</p>
 
     <div class="clearfix">
       <div class="box pinkbox threecol">
@@ -82,10 +84,12 @@
       </div>
     </div>
 
-    <p>
+    <p style="color:white">
       Note that we also use the clearfix hack to take care of the layout flow,
       and that add the box-sizing property to make sure that the box doesn't
       break due to extra padding. Try to remove this code to see the effect.
     </p>
+  
+   <span class="link">Photo by <a href="https://unsplash.com/@impatrickt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Tomasso</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
   </body>
 </html>

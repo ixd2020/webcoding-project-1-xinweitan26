@@ -3,8 +3,13 @@
 
 /* =========================== ======= Basic Area ======  =========================== */ 
 body {
-  font-family: helvetica, arial, sans-serif;
+  /*font-family: helvetica, arial, sans-serif;*/
+  font-family: 'Dancing Script', cursive;
   margin: 2em;
+  background-image:url("https://cdn.glitch.com/12ce52a6-de1d-4319-80d6-d399a4cf2ada%2Fpatrick-tomasso-QMDap1TAu0g-unsplash.jpg?v=1605150492048");
+  background-color:#FFFDD0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -98,6 +103,7 @@ th, td {
 }
 
 /* =========================== ======= testcss ======  =========================== */ 
+/* box */
 * {
   box-sizing: border-box;
 }
@@ -161,4 +167,44 @@ th, td {
 
 .onecol {
   width:100%
+}
+
+/*link*/
+a{
+  border:1px dotted red;
+  padding:10px;
+  text-decoration: none;
+    background: white;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background:yellow;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+/*link*/
+.link{
+  width:300px;
+  height:200px;
+  background: white;
+  border: 1px solid brown;
+  inline:block;
 }
