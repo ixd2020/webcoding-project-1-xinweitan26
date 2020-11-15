@@ -3,6 +3,11 @@
 /* =========================== ======= Basic Area ======  =========================== */ 
 body {
   margin: 2em;
+  /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FSpace%20wallpaper%20dump.jpg?v=1605360557262");*/
+  /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");*/
+  background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FBlack%20Abstract%20Textured%20Backdrop%20for%20Photo%20Booth%20D180.png?v=1605374956145");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-color:black;
   /* color: #FFFDD0,#F5EE92,#ffe5b4, #55CEFF*/
 }
