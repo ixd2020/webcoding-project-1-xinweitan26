@@ -2,7 +2,6 @@
 
 /* =========================== ======= Basic Area ======  =========================== */ 
 body {
-  margin: 2em;
   /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FSpace%20wallpaper%20dump.jpg?v=1605360557262");*/
   /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");*/
   background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FBlack%20Abstract%20Textured%20Backdrop%20for%20Photo%20Booth%20D180.png?v=1605374956145");
@@ -70,7 +69,7 @@ h1 {
 .mainFooter {
 	color: white;
 	text-align: center;
-	font-size: 18px;
+	font-size: 13px;
 	width: 50%;
 	height: 20%;
 	margin-left: 25%;
@@ -195,7 +194,7 @@ h1 {
 .box2 {
   float: left;
   /*width: 33.33%;*/
-  height:500px;
+  height:350px;
   text-align:center;
 }
 
@@ -331,7 +330,7 @@ h1 {
 	 -webkit-border-radius: 5px;  
 	 padding: 3% 5%;  
 	 margin-bottom: 3%; 
-	 width: 100%;
+	 width: 90%;
 	 height: 20%;
 	 margin-left: auto;
 	 margin-right: auto;
@@ -348,7 +347,7 @@ h1 {
 	 -webkit-border-radius: 5px;  
 	 padding: 3% 5%;  
 	 margin-bottom: 3%; 
-	 width: 100%;
+	 width: 90%;
 	 height: 20%;
 	 margin-left: auto;
 	 margin-right: auto;
