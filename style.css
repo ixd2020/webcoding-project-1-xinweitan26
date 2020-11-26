@@ -128,11 +128,12 @@ h1 {
 /* ------------- Table for artwork in home & artwork ------------- */
 
 .atable{
-  width:100%;
+  width:90%;
   height:100%;
   font-family: 'Concert One', cursive;
   text-align:center;
   float: center;
+  margin: auto;
 }
 
 .atable a:link {
@@ -192,20 +193,29 @@ h1 {
 }
 
 /* ------------- Table for video------------- */
+.video{
+  width:90%;
+  height:100%;
+  font-family: 'Concert One', cursive;
+  text-align:center;
+  float: center;
+  margin: auto;
+}
+
 .box2 {
   float: left;
   /*width: 33.33%;*/
   height:350px;
-  text-align:center;
 }
 
 .twocol {
   width:50%;
+  float: center;
+  margin: auto;
   background-color: none;
   border: 5px solid lightblue;
   text-align:center;
   color:white;
-  padding: center;
   font-size:20px;
 }
 
