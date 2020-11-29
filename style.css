@@ -69,7 +69,7 @@ h1 {
 .mainFooter {
 	color: white;
 	text-align: center;
-	font-size: 13px;
+	font-size: 20px;
 	width: 50%;
 	height: 20%;
 	margin-left: 25%;
@@ -192,6 +192,8 @@ h1 {
   border: 5px solid lightblue;
 }
 
+
+
 /* ------------- Table for video------------- */
 .video{
   width:90%;
@@ -208,7 +210,7 @@ h1 {
   height:350px;
 }
 
-.twocol {
+.videotwocol {
   width:50%;
   float: center;
   margin: auto;
@@ -221,7 +223,7 @@ h1 {
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
-  .video, .atable, .twocol, .threecol{
+  .video, .atable, .videotwocol, .threecol{
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
@@ -382,7 +384,7 @@ h1 {
   }
 }
 
-/* =========================== ======= Contact Area ======  =========================== */ 
+/* =========================== ======= Contact Area1 ======  =========================== */ 
 /* ------------- All Contact Box ------------- */
 .contact1 { 
 	 background-color: lightblue;
@@ -458,6 +460,141 @@ h1 {
 }
 
 .submit a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* =========================== ======= box ======  =========================== */ 
+.boxinfo{
+  text-align:center;
+  float: center;
+  margin: auto;
+  width:90%;
+  height:auto;
+  
+}
+
+/* box */
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  /*width: 33.33%;*/
+  padding: auto;
+  height:350px;
+}
+
+.boxform {
+  float: left;
+  /*width: 33.33%;*/
+  padding: auto;
+  height:550px;
+} 
+
+/* thing will not go the left and right*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.bluebox{
+  background-color:#73cdff;
+  color: black;
+  /*overflow: auto;*/
+  font-size: 25px;
+}
+
+.lightbluebox1{
+  background-color:lightblue;
+  color: black;
+  font-size: 25px;
+
+}
+
+.lightbluebox2{
+  background-color:#d5f0ff;
+  color: black;
+  font-size: 25px;
+
+}
+
+.twocol {
+  width:50%;
+}
+
+.onecol {
+  width:100%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .twocol, .onecol {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+/* =========================== ======= Contact Area2 ======  =========================== */ 
+/* ------------- All Contact Box ------------- */
+.contact2 { 
+	 text-align: center;
+	 font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+  padding: 3% 5%;  
+}
+
+/* ------------- Feedback ------------- */
+ .form2 { 
+	 text-align: center;
+	 font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+   padding: 3% 5%;  
+}
+
+.textbox2{
+  width: auto;
+  height: 100%;
+}
+
+.field2{
+  text-align:center;
+}
+
+.submit2{
+  background-color: white;
+  margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+  height: 8%;
+  text-align:center;
+  font-size: 20px;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 12px;
+}
+
+.submit2 a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:active {
   color: mediumpurple;
   background-color: transparent;
   text-decoration: none;
