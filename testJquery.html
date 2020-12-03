@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Index!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("div.mybutton").click(function() {
+          $("h1, h2, p").toggleClass("blue");
+          $("div").toggleClass("important");
+        });
+      });
+    </script>
+
+    <style>
+      .important {
+        font-weight: bold;
+        font-size: xx-large;
+        color:yellow;
+      }
+
+      .blue {
+        color: blue;
+        background-color: orange;
+      }
+      
+      .mybutton{
+        background-color:grey;
+        font-size:150%;
+        padding:5px;
+        border: 1px solid black
+        width:50px;
+        float:left;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="/index.html">Index Page</a> /
+      <a href="/test.html">Test Page</a> /
+      <a href="/testcss.html">Test CSS Page</a> /
+      <a href="/testdom.html">Test Java Page</a> /
+      <a href="/testJquery.html">Test JqueryPage</a> /
+    </p>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <div>This is some important text!</div>
+    <br />
+
+    <div class="mybutton">Add classes to elements</div>
+  </body>
+</html>
