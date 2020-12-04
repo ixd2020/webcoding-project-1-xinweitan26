@@ -62,7 +62,7 @@ h1 {
 	color: blueviolet;
 }
 
-/* =========================== ======= testassignment ======  =========================== */ 
+/* =========================== ======= button link 1 ======  =========================== */ 
 /* Button*/
 .submit1{
   background-color:grey;
@@ -84,6 +84,46 @@ h1 {
   text-decoration: underline;
 }
 
+
+/* =========================== ======= button link 2======  =========================== */ 
+.alink{
+  background-color: white;
+  margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+  height: 100%;
+  text-align:center;
+  font-size: 20px;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 12px;
+}
+
+.alink a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.alink a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.alink a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.alink a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* =========================== ======= artwork table ======  =========================== */ 
 /*Img*/
 #img{
   text-align:center;
@@ -160,41 +200,6 @@ h1 {
   }
 }
 
-.alink{
-  background-color: white;
-  margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-  height: 100%;
-  text-align:center;
-  font-size: 20px;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border-radius: 12px;
-}
-
-.alink a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.alink a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.alink a:hover {
-  color: blue;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.alink a:active {
-  color: mediumpurple;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
 /* =========================== ======= slideshow ======  =========================== */ 
 * {box-sizing:border-box}
@@ -278,9 +283,89 @@ h1 {
   to {opacity: 1}
 }
 
+/* =========================== ======= Contact Area1 ======  =========================== */ 
+/* ------------- All Contact Box ------------- */
+.contact1 { 
+	 background-color: lightblue;
+  /*skyblue, #93f086*/
+	 border-radius: 5px; 
+	 -moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px;  
+	 padding: 3% 5%;  
+	 margin-bottom: 3%; 
+	 width: 90%;
+	 height: 20%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 text-align: center;
+	 font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+}
+
+/* ------------- Feedback ------------- */
+ .form1 { 
+	 background-color: lightblue;
+	 border-radius: 5px; 
+	 -moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px;  
+	 padding: 3% 5%;  
+	 margin-bottom: 3%; 
+	 width: 90%;
+	 height: 20%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 text-align: center;
+	 font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+}
+
+.textbox{
+  width: auto;
+  height: 100%;
+}
+
+.field{
+  text-align:center;
+}
+
+.submit{
+  background-color: white;
+  margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+  height: 100%;
+  text-align:center;
+  font-size: 20px;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 12px;
+}
+
+.submit a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 /* =========================== ======= box ======  =========================== */ 
-.info{
+.boxinfo{
   text-align:center;
   float: center;
   margin: auto;
@@ -298,7 +383,7 @@ h1 {
   float: left;
   /*width: 33.33%;*/
   padding: auto;
-  height:300px;
+  height:350px;
 }
 
 .boxform {
@@ -352,68 +437,7 @@ h1 {
   }
 }
 
-/* =========================== ======= Contact Area ======  =========================== */ 
-/* ------------- All Contact Box ------------- */
-.contact2 { 
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
-}
-
-/* ------------- Feedback ------------- */
- .form2 { 
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
-}
-
-.textbox2{
-  width: auto;
-  height: 100%;
-}
-
-.field2{
-  text-align:center;
-}
-
-.submit2{
-  background-color: white;
-  margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-  height: 8%;
-  text-align:center;
-  font-size: 20px;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border-radius: 12px;
-}
-
-.submit2 a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:hover {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:active {
-  color: mediumpurple;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 /* =========================== ======= Each Artwork piece Area ======  =========================== */ 
-
 /* ------------- All Contact Box ------------- */
 .art{ 
 	 background-color: blue;
@@ -448,3 +472,27 @@ th, td {
   border-left: 5px solid lightblue;
 }
 
+/* =========================== ======= about liu kang img and link ======  =========================== */ 
+.liuimg{
+  margin-right:10%;
+  margin-left:40%;
+}
+
+.threecolone {
+  width:20%;
+  height:20%;
+  background-color: none;
+  color: blue;
+  font-size:25px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  text-align:left;
+}
+
+.threecoltwo {
+  width:36%;
+  background-color: none;
+  color: blue;
+  font-size:25px;
+}

@@ -65,6 +65,7 @@ h1 {
   text-decoration: underline;
 }
 
+
 /* ------------- Footer ------------- */
 .mainFooter {
 	color: white;
@@ -125,8 +126,8 @@ h1 {
   font-size:20px;
 } 
 
-/* ------------- Table for artwork in home & artwork ------------- */
 
+/* ------------- Table for artwork in home & artwork ------------- */
 .atable{
   width:90%;
   height:100%;
@@ -193,7 +194,6 @@ h1 {
 }
 
 
-
 /* ------------- Table for video------------- */
 .video{
   width:90%;
@@ -228,11 +228,11 @@ h1 {
   }
 }
 
-/* =========================== ======= slideshow ======  =========================== */ 
+
+/* ------------- Slide show ------------- */
 * {
   box-sizing:border-box;
 }
-
 
 /* Slideshow container */
 .slideshow {
@@ -279,24 +279,11 @@ h1 {
 
 
 /* =========================== ======= About Area ======  =========================== */ 
-
-.threecolone {
-  width:20%;
-  height:20%;
-  background-color: none;
-  color: blue;
-  font-size:25px;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  padding-left: 70px;
-  text-align:left;
-}
-
-.threecoltwo {
-  width:36%;
-  background-color: none;
-  color: blue;
-  font-size:25px;
+#intro{
+ font-family: 'Kurale', serif;
+ text-decoration: underline; 
+ font-size:30px;
+ color:white;
 }
 
 #header1{
@@ -371,6 +358,11 @@ h1 {
   text-decoration: underline;
 }
 
+.liuimg{
+  margin-right:10%;
+  margin-left:40%;
+}
+
 .info{
   color: white;
   font-size:20px;
@@ -384,82 +376,64 @@ h1 {
   }
 }
 
-/* =========================== ======= Contact Area1 ======  =========================== */ 
+
+/* =========================== ======= Contact Area2 ======  =========================== */ 
 /* ------------- All Contact Box ------------- */
-.contact1 { 
-	 background-color: lightblue;
-  /*skyblue, #93f086*/
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px;  
-	 padding: 3% 5%;  
-	 margin-bottom: 3%; 
-	 width: 90%;
-	 height: 20%;
-	 margin-left: auto;
-	 margin-right: auto;
+.contact2 { 
 	 text-align: center;
 	 font-size: 20px;
    font-family: 'Oswald', sans-serif;
+  padding: 3% 5%;  
 }
 
 /* ------------- Feedback ------------- */
- .form1 { 
-	 background-color: lightblue;
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px;  
-	 padding: 3% 5%;  
-	 margin-bottom: 3%; 
-	 width: 90%;
-	 height: 20%;
-	 margin-left: auto;
-	 margin-right: auto;
+ .form2 { 
 	 text-align: center;
 	 font-size: 20px;
    font-family: 'Oswald', sans-serif;
+   padding: 3% 5%;  
 }
 
-.textbox{
+.textbox2{
   width: auto;
   height: 100%;
 }
 
-.field{
+.field2{
   text-align:center;
 }
 
-.submit{
+.submit2{
   background-color: white;
   margin-left: auto;
 	margin-right: auto;
 	width: 20%;
-  height: 100%;
+  height: 8%;
   text-align:center;
   font-size: 20px;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-radius: 12px;
 }
 
-.submit a:link {
+.submit2 a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
-.submit a:visited {
+.submit2 a:visited {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
-.submit a:hover {
+.submit2 a:hover {
   color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
-.submit a:active {
+.submit2 a:active {
   color: mediumpurple;
   background-color: transparent;
   text-decoration: none;
@@ -536,66 +510,4 @@ h1 {
   .twocol, .onecol {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-}
-
-/* =========================== ======= Contact Area2 ======  =========================== */ 
-/* ------------- All Contact Box ------------- */
-.contact2 { 
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
-  padding: 3% 5%;  
-}
-
-/* ------------- Feedback ------------- */
- .form2 { 
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
-   padding: 3% 5%;  
-}
-
-.textbox2{
-  width: auto;
-  height: 100%;
-}
-
-.field2{
-  text-align:center;
-}
-
-.submit2{
-  background-color: white;
-  margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-  height: 8%;
-  text-align:center;
-  font-size: 20px;
-  padding: 0.2em 0.5em 0.2em 0.5em;
-  border-radius: 12px;
-}
-
-.submit2 a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:hover {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.submit2 a:active {
-  color: mediumpurple;
-  background-color: transparent;
-  text-decoration: none;
 }
