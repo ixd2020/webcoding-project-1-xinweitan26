@@ -340,10 +340,26 @@ h1 {
   color: white;
 }
 
-.content1 {
-  font-size: 30px;
+#menu{
+  width: 50%;
+  margin-right:20%;
+  margin-left:25%;
+  background-color:#73cdff;
   color: white;
-  font-family: "Concert One", cursive;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+#menulist{
+  width: 49%;
+  float:center;
+  margin:auto;
+  background-color:#73cdff;
+  color: white;
+  text-align: center;
+  display:none;
 }
 
 /*link at first, visted one,  hover mouse on, active mouse click */
@@ -351,6 +367,11 @@ h1 {
   font-size: 20px;
   font-family: "Concert One", cursive;
   color:white;
+  background-color:#73cdff;
+  text-align: center;
+  width: 50%;
+  float:center;
+  margin:auto;
 }
 
 .content2 a:link {

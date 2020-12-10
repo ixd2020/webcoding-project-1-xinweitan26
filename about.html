@@ -16,6 +16,14 @@
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#menu").click(function(){
+          $("#menulist").fadeToggle();
+        });
+      });
+    </script>
   </head>
   
   <body>
@@ -33,14 +41,17 @@
     
     <img class="liuimg" src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FMask%20Group%201.png?v=1607057412124">
     <br><br><br><br>
-    <ui class="content2">
-             <li><a href= "#intro">Introduction</a></li><br>
-             <li><a href= "#header1">Early Life</a></li><br>
-             <li><a href= "#header2">World War 2</a></li><br>
-             <li><a href= "#header3">Nanyang Style</a></li><br>
-             <li><a href= "#header4">Awards</a></li><br>
-             <li><a href= "#header5">Position</a></li>
-    </ui>
+    <button id="menu">Menu</button>
+    <div class="content2" id="menulist">
+    <br><br>
+            <a href= "#intro">Introduction</a><br><br>
+            <a href= "#header1">Early Life</a><br><br>
+            <a href= "#header2">World War 2</a><br><br>
+            <a href= "#header3">Nanyang Style</a><br><br>
+            <a href= "#header4">Awards</a><br><br>
+            <a href= "#header5">Position</a>
+    <br><br><br><br>
+    </div>
     <br><br>
     
     <p id ="intro"><strong>Introduction</strong></p>

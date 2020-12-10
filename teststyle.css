@@ -1,98 +1,97 @@
 /* CSS files add styling rules to your content */
 
-/* =========================== ======= Basic Area ======  =========================== */ 
+/* =========================== ======= Basic Area ======  =========================== */
 body {
   /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FSpace%20wallpaper%20dump.jpg?v=1605360557262");*/
   /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");*/
-  background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FBlack%20Abstract%20Textured%20Backdrop%20for%20Photo%20Booth%20D180.png?v=1605374956145");
+  background-image: url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FBlack%20Abstract%20Textured%20Backdrop%20for%20Photo%20Booth%20D180.png?v=1605374956145");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color:black;
+  background-color: black;
   /* color: #FFFDD0,#F5EE92,#ffe5b4, #55CEFF*/
 }
 
 h1 {
   font-style: italic;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: blueviolet;
   /*#373fff*/
-  font-size:40px;
+  font-size: 40px;
 }
 
 /*Navigation Bar*/
-.topnav{
-	background-color: skyblue;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+.topnav {
+  background-color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .topnav a {
-	float: none;
-	color: black;
-	text-align:center;
-	padding: 35px 80px;
-	text-decoration: none;
-	font-size: 25px;
+  float: none;
+  color: black;
+  text-align: center;
+  padding: 35px 80px;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .topnav a:hover {
-	background-color: mediumpurple;
-	color:white;
+  background-color: mediumpurple;
+  color: white;
   padding: 5px 80px;
   text-decoration: underline;
 }
 
 /* Footer*/
 .mainFooter {
-	color: blue;
-	text-align: center;
-	font-size: 20px;
-	width: 50%;
-	height: 20%;
-	margin-left: 25%;
-  margin-right: 50%
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  margin-right: 50%;
 }
 
-.mainFooter  a {
-	color: black;
+.mainFooter a {
+  color: black;
 }
 
-.mainFooter  a:hover {
-	color: blueviolet;
+.mainFooter a:hover {
+  color: blueviolet;
 }
 
-/* =========================== ======= button link 1 ======  =========================== */ 
+/* =========================== ======= button link 1 ======  =========================== */
 /* Button*/
-.submit1{
-  background-color:grey;
+.submit1 {
+  background-color: grey;
   margin-left: auto;
-	margin-right: auto;
-	width: 15%;
+  margin-right: auto;
+  width: 15%;
   height: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 .submit1 a {
-	float: none;
-	color: black;
+  float: none;
+  color: black;
   text-decoration: none;
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .submit1 a:hover {
   text-decoration: underline;
 }
 
-
-/* =========================== ======= button link 2======  =========================== */ 
-.alink{
+/* =========================== ======= button link 2======  =========================== */
+.alink {
   background-color: white;
   margin-left: auto;
-	margin-right: auto;
-	width: 20%;
+  margin-right: auto;
+  width: 20%;
   height: 100%;
-  text-align:center;
+  text-align: center;
   font-size: 20px;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-radius: 12px;
@@ -122,19 +121,19 @@ h1 {
   text-decoration: underline;
 }
 
-
-/* =========================== ======= artwork table ======  =========================== */ 
+/* =========================== ======= artwork table ======  =========================== */
 /*Img*/
-#img{
-  text-align:center;
+#img {
+  text-align: center;
 }
 
-.atable{
-  width:100%;
-  height:100%;
-  font-family: 'Concert One', cursive;
-  text-align:center;
+.atable {
+  width: 90%;
+  height: 100%;
+  font-family: "Concert One", cursive;
+  text-align: center;
   float: center;
+  margin: auto;
 }
 
 .atable a:link {
@@ -169,14 +168,16 @@ h1 {
 .box0 {
   float: left;
   /*width: 33.33%;*/
-  height:380px;
+  height: 600px;
+  padding: auto;
 }
 
 .box1 {
   float: left;
   /*width: 33.33%;*/
-  height:550px;
-}  
+  height: 800px;
+  padding: auto;
+}
 
 /* thing will not go the left and right*/
 .clearfix::after {
@@ -186,30 +187,66 @@ h1 {
 }
 
 .threecol {
-  width:33.33%;
+  width: 33.33%;
   background-color: none;
   color: blue;
-  font-size:25px;
+  font-size: 25px;
   border: 5px solid lightblue;
 }
 
+.center1 {
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center2 {
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+.text {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align:center;
+}
+
+.text1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align:center;
+  background-color:lightblue;
+  width:300px;
+  height:200px;
+}
+
+.text2 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
-  .clearfix, .threecol{
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 800px) {
+  .clearfix,
+  .threecol {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 
-
-/* =========================== ======= slideshow ======  =========================== */ 
-* {box-sizing:border-box}
+/* =========================== ======= slideshow ======  =========================== */
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow {
-  background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");
+  background-image: url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color:black;
+  background-color: black;
   max-width: 900px;
   max-height: 500px;
   position: relative;
@@ -219,11 +256,12 @@ h1 {
 /* Hide the images by default */
 .slide {
   display: none;
-  text-align:center;
+  text-align: center;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -245,8 +283,9 @@ h1 {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* The dots/bullets/indicators */
@@ -261,7 +300,8 @@ h1 {
   transition: background-color 0.6s ease;
 }
 
-.active1, .dot:hover {
+.active1,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -274,67 +314,75 @@ h1 {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-/* =========================== ======= Contact Area1 ======  =========================== */ 
+/* =========================== ======= Contact Area1 ======  =========================== */
 /* ------------- All Contact Box ------------- */
-.contact1 { 
-	 background-color: lightblue;
+.contact1 {
+  background-color: lightblue;
   /*skyblue, #93f086*/
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px;  
-	 padding: 3% 5%;  
-	 margin-bottom: 3%; 
-	 width: 90%;
-	 height: 20%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-bottom: 3%;
+  width: 90%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
 /* ------------- Feedback ------------- */
- .form1 { 
-	 background-color: lightblue;
-	 border-radius: 5px; 
-	 -moz-border-radius: 5px; 
-	 -webkit-border-radius: 5px;  
-	 padding: 3% 5%;  
-	 margin-bottom: 3%; 
-	 width: 90%;
-	 height: 20%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 text-align: center;
-	 font-size: 20px;
-   font-family: 'Oswald', sans-serif;
+.form1 {
+  background-color: lightblue;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-bottom: 3%;
+  width: 90%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
-.textbox{
+.textbox {
   width: auto;
   height: 100%;
 }
 
-.field{
-  text-align:center;
+.field {
+  text-align: center;
 }
 
-.submit{
+.submit {
   background-color: white;
   margin-left: auto;
-	margin-right: auto;
-	width: 20%;
+  margin-right: auto;
+  width: 20%;
   height: 100%;
-  text-align:center;
+  text-align: center;
   font-size: 20px;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-radius: 12px;
@@ -364,14 +412,13 @@ h1 {
   text-decoration: none;
 }
 
-/* =========================== ======= box ======  =========================== */ 
-.boxinfo{
-  text-align:center;
+/* =========================== ======= box ======  =========================== */
+.boxinfo {
+  text-align: center;
   float: center;
   margin: auto;
-  width:90%;
-  height:auto;
-  
+  width: 90%;
+  height: auto;
 }
 
 /* box */
@@ -383,15 +430,15 @@ h1 {
   float: left;
   /*width: 33.33%;*/
   padding: auto;
-  height:350px;
+  height: 350px;
 }
 
 .boxform {
   float: left;
   /*width: 33.33%;*/
   padding: auto;
-  height:550px;
-} 
+  height: 550px;
+}
 
 /* thing will not go the left and right*/
 .clearfix::after {
@@ -400,71 +447,70 @@ h1 {
   display: table;
 }
 
-
-.bluebox{
-  background-color:#73cdff;
+.bluebox {
+  background-color: #73cdff;
   color: black;
   /*overflow: auto;*/
   font-size: 25px;
 }
 
-.lightbluebox1{
-  background-color:lightblue;
+.lightbluebox1 {
+  background-color: lightblue;
   color: black;
   font-size: 25px;
-
 }
 
-.lightbluebox2{
-  background-color:#d5f0ff;
+.lightbluebox2 {
+  background-color: #d5f0ff;
   color: black;
   font-size: 25px;
-
 }
 
 .twocol {
-  width:50%;
+  width: 50%;
 }
 
 .onecol {
-  width:100%;
+  width: 100%;
 }
 
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
-  .twocol, .onecol {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 800px) {
+  .twocol,
+  .onecol {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 
-/* =========================== ======= Each Artwork piece Area ======  =========================== */ 
+/* =========================== ======= Each Artwork piece Area ======  =========================== */
 /* ------------- All Contact Box ------------- */
-.art{ 
-	 background-color: blue;
-	 margin-right: 10%;
+.art {
+  background-color: blue;
+  margin-right: 10%;
   margin-left: 20%;
-	 text-align: center;
-	 font-size: 20px;
-   float:center;
-   transition: transform .1s;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  transition: transform 0.1s;
 }
 
 .art:hover {
   -ms-transform: scale(1.3); /* IE 9 */
   -webkit-transform: scale(1.3); /* Safari 3-8 */
-  transform: scale(1.3); 
+  transform: scale(1.3);
 }
 
-table.word{
-  margin-left: auto; 
+table.word {
+  margin-left: auto;
   margin-right: auto;
-  width:80%;
-  color:white;
+  width: 80%;
+  color: white;
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-th, td {
+th,
+td {
   border-collapse: collapse;
   border-bottom: 5px solid lightblue;
   border-top: 5px solid lightblue;
@@ -472,27 +518,27 @@ th, td {
   border-left: 5px solid lightblue;
 }
 
-/* =========================== ======= about liu kang img and link ======  =========================== */ 
-.liuimg{
-  margin-right:10%;
-  margin-left:40%;
+/* =========================== ======= about liu kang img and link ======  =========================== */
+.liuimg {
+  margin-right: 10%;
+  margin-left: 40%;
 }
 
 .threecolone {
-  width:20%;
-  height:20%;
+  width: 20%;
+  height: 20%;
   background-color: none;
   color: blue;
-  font-size:25px;
+  font-size: 25px;
   padding-top: 100px;
   padding-bottom: 50px;
   padding-left: 70px;
-  text-align:left;
+  text-align: left;
 }
 
 .threecoltwo {
-  width:36%;
+  width: 36%;
   background-color: none;
   color: blue;
-  font-size:25px;
+  font-size: 25px;
 }
