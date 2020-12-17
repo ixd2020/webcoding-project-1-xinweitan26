@@ -1,0 +1,669 @@
+/* CSS files add styling rules to your content */
+
+/* =========================== ======= Basic Area ======  =========================== */
+body {
+  /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FSpace%20wallpaper%20dump.jpg?v=1605360557262");*/
+  /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");*/
+  background-image: url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FBlack%20Abstract%20Textured%20Backdrop%20for%20Photo%20Booth%20D180.png?v=1605374956145");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+  /* color: #FFFDD0,#F5EE92,#ffe5b4, #55CEFF*/
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  color: blueviolet;
+  /*#373fff*/
+  font-size: 40px;
+}
+
+
+/* ------------- Navigation Bar ------------- */
+.topnav {
+  background-color: #FFFDD0;
+  /*skyblue,  #41A950*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.topnav a:link {
+  float: none;
+  color: black;
+  text-align: center;
+  /* top right bottom left*/
+  padding: 5px 90px 5px 90px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:visited {
+  float: none;
+  color: black;
+  text-align: center;
+  /* top right bottom left*/
+  padding: 5px 90px 5px 90px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ff9248;
+  /*mediumpurple*/
+  color: white;
+  text-decoration: underline;
+}
+
+.topnav a:active {
+  background-color: #ff9248;
+  /*mediumpurple*/
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* ------------- Footer ------------- */
+.mainFooter {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  margin-right: 50%;
+}
+
+.mainFooter a:link {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mainFooter a:visited {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mainFooter a:hover {
+  color: purple;
+  /*blueviolet*/
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mainFooter a:active {
+  color: purple;
+  /*blue*/
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* ------------- Back to top------------- */
+.back {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 8%;
+  text-align: center;
+  font-size: 20px;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 12px;
+}
+
+.back a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.back a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.back a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.back a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* =========================== ======= Home Area ======  =========================== */
+/* ------------- Message Box ------------- */
+.message {
+  width: 90%;
+  height: 100%;
+  color: red;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  border: 5px solid lightblue;
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.info {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+
+/* ------------- Table for artwork in home & artwork ------------- */
+.atable {
+  width: 90%;
+  height: 100%;
+  font-family: "Concert One", cursive;
+  text-align: center;
+  float: center;
+  margin: auto;
+}
+
+.atable a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.atable a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.atable a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.atable a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* box */
+* {
+  box-sizing: border-box;
+}
+
+.box0 {
+  float: left;
+  /*width: 33.33%;*/
+  height: 600px;
+  padding:auto;
+}
+
+.box1 {
+  float: left;
+  /*width: 33.33%;*/
+  height: 800px;
+  padding:auto;
+}
+
+/* thing will not go the left and right*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.threecol {
+  width: 33.33%;
+  background-color: none;
+  color: blue;
+  font-size: 25px;
+  border: 5px solid lightblue;
+}
+
+.text {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+
+/* ------------- Table for video------------- */
+.video {
+  width: 90%;
+  height: 100%;
+  font-family: "Concert One", cursive;
+  text-align: center;
+  float: center;
+  margin: auto;
+}
+
+.box2 {
+  float: left;
+  /*width: 33.33%;*/
+  height: 350px;
+}
+
+.videotwocol {
+  width: 50%;
+  float: center;
+  margin: auto;
+  background-color: none;
+  border: 5px solid lightblue;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .video,
+  .atable,
+  .videotwocol,
+  .threecol {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+/* ------------- Slide show ------------- */
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow {
+  /*background-image:url("https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FDark%20Green%20Printed%20Old%20Master%20White%20Little%20Green%20Texture%20Backdrop.jpg?v=1605374950102");*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-color:black;*/
+  width: 90%;
+  height: 90%;
+  position: relative;
+  margin: auto;
+  /*border: 5px solid lightblue; */
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .slide img {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* =========================== ======= About Area ======  =========================== */
+#intro {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#header1 {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#header2 {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#header3 {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#header4 {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#header5 {
+  font-family: "Kurale", serif;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+}
+
+#menu{
+  width: 50%;
+  margin-right:20%;
+  margin-left:25%;
+  background-color:#73cdff;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+#menulist{
+  width: 49%;
+  float:center;
+  margin:auto;
+  background-color:#73cdff;
+  color: white;
+  text-align: center;
+  display:none;
+}
+
+/*link at first, visted one,  hover mouse on, active mouse click */
+.content2 {
+  font-size: 20px;
+  font-family: "Concert One", cursive;
+  color:white;
+  background-color:#73cdff;
+  text-align: center;
+  width: 50%;
+  float:center;
+  margin:auto;
+}
+
+.content2 a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.content2 a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.content2 a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.content2 a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.liuimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.info {
+  color: white;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .threecolone, .threecoltwo{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+/* =========================== ======= Contact Area2 ======  =========================== */
+/* ------------- All Contact Box ------------- */
+.contact2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 3% 5%;
+}
+
+/* ------------- Feedback ------------- */
+.form2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 3% 5%;
+}
+
+.textbox2 {
+  width: auto;
+  height: 100%;
+}
+
+.field2 {
+  text-align: center;
+}
+
+.submit2 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 8%;
+  text-align: center;
+  font-size: 20px;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 12px;
+}
+
+.submit2 a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.submit2 a:active {
+  color: mediumpurple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* =========================== ======= box ======  =========================== */
+.boxinfo {
+  text-align: center;
+  float: center;
+  margin: auto;
+  width: 90%;
+  height: auto;
+}
+
+.box {
+  float: left;
+  /*width: 33.33%;*/
+  padding: auto;
+  height: 350px;
+}
+
+.boxform {
+  float: left;
+  /*width: 33.33%;*/
+  padding: auto;
+  height: 600px;
+}
+
+/* thing will not go the left and right*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bluebox {
+  background-color: #73cdff;
+  color: black;
+  /*overflow: auto;*/
+  font-size: 25px;
+}
+
+.lightbluebox1 {
+  background-color: lightblue;
+  color: black;
+  font-size: 25px;
+}
+
+.lightbluebox2 {
+  background-color: #d5f0ff;
+  color: black;
+  font-size: 25px;
+}
+
+.twocol {
+  width: 50%;
+}
+
+.onecol {
+  width: 100%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .twocol,
+  .onecol {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+/* ------------- All Contact Box ------------- */
+.art1 {
+  background-color: none;
+  margin-right: 10%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  transition: transform 0.1s;
+}
+
+.art1:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+.art2 {
+  background-color: none;
+  margin-right: 10%;
+  margin-left: 35%;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  transition: transform 0.1s;
+}
+
+.art2:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+.art3 {
+  background-color: none;
+  margin-right: 10%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  transition: transform 0.1s;
+}
+
+.art3:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+.art4 {
+  background-color: none;
+  margin-right: 15%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 20px;
+  float: center;
+  transition: transform 0.1s;
+}
+
+.art4:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+table.word {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+th,
+td {
+  border-collapse: collapse;
+  border-bottom: 5px solid lightblue;
+  border-top: 5px solid lightblue;
+  border-right: 5px solid lightblue;
+  border-left: 5px solid lightblue;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Home</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Concert+One&family=Courgette&family=Kurale&family=Lato:wght@300&family=Marck+Script&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLogo%20img%201.2.png?v=1604932172949" width="100%" height="10%"><br>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <a class="active" href="/index.html"><strong>Home</strong></a>
+      <a href="/about.html"><strong>About</strong></a>
+      <a href="/contact.html"><strong>Contact</strong></a>
+      <a href="/artwork.html"><strong>Artwork</strong></a>
+    </div>
+    
+    <!-- Message -->
+    <br><br>
+    <div class="message">
+      <strong class="headerline">Welcome to Liu Art Gallery</strong>
+      <p class="info">This is a website about the artwork of artist Liu Kang. You can also better understand the details of each artwork of each Liu Kang through this website. We will hold a mini art game event on 20 December 2020. Through this small art game, you can better understand the artist liu kang and there is a mysterious gift in this event! So if you want more information, you can contact us!</p>
+  
+    <br>
+    <!-- Slideshow container -->
+    <div class="slideshow">
+      <!-- full-width img with number and caption text -->
+      <div class="slide fade">
+       <img src=" https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%206.png?v=1607322393389">
+      </div>
+      <div class="slide fade">
+        <img src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%201.png?v=1605943366254">
+      </div>
+      <div class="slide fade">
+        <img src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%202.png?v=1605943367661">
+      </div>
+      <div class="slide fade">
+       <img src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%203.png?v=1605943371635">
+      </div>
+      <div class="slide fade">
+       <img src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%204.png?v=1606477347584">
+      </div>
+      <div class="slide fade">
+       <img src="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2F300Artboard%205.png?v=1606477347297">
+      </div>
+    </div>
+    </div>
+ <br>   
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 3 seconds
+      }
+      </script>
+    
+    <!-- Popular Artwork -->
+    <h1 style = "text-align:center">Popular Artwork</h1>
+    <div class="clearfix atable">
+      <div class="box0 threecol">
+       <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FArtist%20and%20model_P-1070%20(cropped).jpg?v=1604653166536" width="90%" height="50%"><br><br><a href="A1-Artist and Model.html" target="_blank">Artist and Model</a><br>
+       <p class="text">Artist and Model' is based on a scene of fellow artist Chen Wen Hsi sketching a Balinese woman, during their Bali expedition in 1952 together with Cheong Soo Pieng and Chen Chong Swee.</p>
+      </div>
+      <div class="box0 threecol">
+        <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLife%20by%20the%20River_P-0521%20(cropped).jpg?v=1604653186483" width="90%" height="50%"><br><br><a href="A2-Life by the River.html" target="_blank">Life by the River</a><br>
+        <p class="text"> It depicts a bucolic scene of daily life in a traditional kampung or village in 1970s Singapore. The background features lush tropical greenery and a group of typical Malay wooden kampung houses on stilts, or rumah panggung, with gabled roofs.</p>
+      </div>
+      <div class="box0 threecol">
+        <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FScenery_2003-03341.jpg?v=1604653203590" width="90%" height="50%"><br><br><a href="A3-Scenery.html" target="_blank">Scenery</a><br>
+        <p class="text">Scenery this artwork is created when Liu kang travelled within and outside Singapore to seek subjects for his art. With brilliant colours, Liu Kang renders a large driftwood on a shore.</p>
+      </div>
+    </div>
+    
+    <!-- Recommended Artwork -->
+    <br>
+    <h1 style = "text-align:center">Recommended Artwork</h1>
+    <div class="clearfix atable">
+      <div class="box1 threecol">
+       <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FConstruction%20Site_2003-03340.jpg?v=1604654226613" width="80%" height="60%"><br><br><a href="A4-Construction Site.html" target="_blank">Construction Site</a><br>
+        <p class="text">From the 1940s to 1950s, Liu Kang travelled widely in Malaya to paint the people, their way of life and the landscape. Rebuilding was everywhere in post-war Malaya and here, Liu Kang depicts labourers hard at work at a construction site.</p>
+      </div>
+      <div class="box1 threecol">
+        <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FMt.%20Huangshan_2003-03377.jpg?v=1604654232183" width="80%" height="60%"><br><br><a href="A5-Mt Huangshan.html" target="_blank">Mt.Huangshan</a><br>
+        <p class="text">In the 1980s, Liu Kang made several trips to Huangshan in Anhui, China, a mountain range famous for its scenic views and a source of inspiration for countless Chinese poets and artists.He had also travelled there with his teacher, Liu Haisu.</p>
+      </div>
+      <div class="box1 threecol">
+        <br><img src ="https://cdn.glitch.com/6bb75782-60a3-449b-9ff6-b3ef63420ad4%2FLife%20in%20a%20Village_2003-03387.jpg?v=1604654242854" width="80%" height="60%"><br><br><a href="A6-Life in a Village.html" target="_blank">Life in a Village</a><br>
+        <p class="text">The island of Bali with its rich and exotic culture was a source of inspiration for Liu Kang and his fellow artists. It provided them with new subject matter and was crucial to the development of the Nanyang style. This undated pastel work is probably drawn on one of Liu Kang trips there.</p>
+      </div>
+    </div>
+    
+    <!-- Video-->
+    <br>
+    <h1 style = "text-align:center">Video</h1>
+    <div class="clearfix video">
+      <div class="box2 videotwocol">
+       <br><iframe width="90%" height="70%" src="https://www.youtube.com/embed/-alBbmhPVW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>TributeSG interview with Dr Liu Thai Ker in 2012</p><br>
+      </div>
+      <div class="box2 videotwocol">
+       <br><iframe width="90%" height="70%" src="https://www.youtube.com/embed/Q2OKAL2Uh_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Artist Liu Kang - A Centennial Celebration</p><br>
+      </div>
+    </div>
+    <br>
+    <div class ="back"><a href="/index.html" type="submit">Back to top</a></div>
+  </body>
+  
+  <br><hr>
+  <footer class="mainFooter"> 
+     <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="index.html">Liu Art Gallery</a></p>
+</footer>
+</html>
